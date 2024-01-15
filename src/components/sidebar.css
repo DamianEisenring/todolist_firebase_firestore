@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100px;
+  height: 100%;
+  padding: 0 16px;
+  background: #404141;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.4s;
+}
+.FaHome {
+  margin-top: 20px;
+  font-size: 35px;
+  color: #fff;
+}
+.IoLogOutOutline {
+  margin-top: auto;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.NewList_btn {
+  font-size: 35px;
+  margin-top: 20px;
+}
+.List_ToDoLists {
+  font-size: 35px;
+  margin-top: 20px;
+}

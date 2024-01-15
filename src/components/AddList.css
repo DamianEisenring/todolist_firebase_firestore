@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2a2b2a;
+  }
+  .wrapper-addList {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  .wrapper-addList h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper-addList .input-box-addList {
+    width: 100%;
+    height: 60px;
+    margin-top: 30px ;
+  }
+  .input-box-addList{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+  }
+  .wrapper-addList .input-box-addDay {
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .input-box-addDay{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+  }
+  .input-box-addList::placeholder, .input-box-addDay::placeholder {
+    color: #fff;
+  }
+  .wrapper-addList .btn-addList {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }

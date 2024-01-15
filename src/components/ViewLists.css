@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+header {
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.5em;
+    position: absolute;
+    top: 0px;
+    margin-right: 50%;
+    flex-wrap: nowrap;
+}
+
+.days {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-right: 300px;
+    top: 100px;
+    left: 200px     ;
+    flex-wrap: nowrap;
+    
+}
+
+.day {
+    width: 180px;
+    height: 50vh;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.day h3 {
+    border-bottom: 1px solid #ddd;
+}
+.day ul{
+    margin-top: 10px;
+    list-style: none;
+}
